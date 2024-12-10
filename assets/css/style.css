@@ -12,7 +12,10 @@
     margin:  auto;
 }
 .border{
-    border:  1px solid rgb(236, 8, 8);
+    border: 1px solid #393f47;
+}
+.p-50-30{
+    padding: 50px 30px 0 30px;
 }
 .head{
     height: 111px;
@@ -57,7 +60,14 @@ header{
 .border-redeus{
     border-radius: 10px;
 }
-
+.btnorder{
+    width: 122px;
+    height: 45px;
+    background-color: #f4a641;
+}
+.m-auto{
+    margin: auto;
+}
 .hero-sec{
     background-image: url('https://demo.awaikenthemes.com/html-preview/quivox/html/images/hero.jpg');
     height: 100vh;
@@ -112,6 +122,17 @@ header{
     width: 147px;
     background-color: #f4a641;
     font-weight: 600;
+}
+.btndownload{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #f4a641;
+    border-radius: 100px;
+}
+.bg-img{
+    background-image: url('https://demo.awaikenthemes.com/html-preview/quivox/html/images/download-app-item-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .m-l-40p{
     margin-left: 40%;
@@ -174,8 +195,24 @@ header{
 .p-50{
     padding: 30px;
 }
+.w-100p{
+    width: 100%;
+}
+.font-24{
+    font-size: 24px;
+}
 .card{
     border: 1px solid #393f47;
+}
+.p-10{
+    padding: 17px;
+}
+.card-price{
+    font-weight: 600;
+   line-height:1.5em;
+}
+.color-green{
+    color: green;
 }
 .justify-evenly{
     justify-content: space-evenly;
@@ -184,6 +221,10 @@ section{
     background-image: url("https://demo.awaikenthemes.com/html-preview/quivox/html/images/bg-img.svg");
     background-position: center center;
     background-size: 200%;
+}
+.sliderimg{
+    height: 60px !important;
+    width: 60px !important;
 }
 .abd img{
     animation: abd 2s linear infinite;
