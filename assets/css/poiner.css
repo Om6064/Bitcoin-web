@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Rubik+Vinyl&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+        body
+        {
+            margin: 0;
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+            font-family: "Poppins", sans-serif;
+            cursor: none;
+        }
+        .cursor
+        {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color:orange;
+            box-shadow: 5px 5px 50px orange;
+            border-radius: 50%;
+            border: orange;
+            z-index: 10;
+            transition: all 0.2s;
+        }
+        .instruction
+        {
+            margin: auto;
+            font-size: larger;
+        }
+
+        @media only screen and (max-width: 600px) 
+        {
+            body
+            {
+                width: 100%;
+                height: 100dvh;
+                overflow-y: scroll;
+                display: flex;
+            }    
+            .instruction
+            {
+                margin: auto;
+                text-align: center;
+                font-size: larger;
+            }
+        }
+
+        .disclaimer
+        {
+            position: absolute;
+            bottom: 0px; 
+            left: 0; 
+            margin-left: auto; 
+            right: 0; 
+            margin-right: auto; 
+            width: fit-content;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            z-index: 50;
+        }
+        .disclaimer a
+        {
+            text-decoration: none;
+            color: #202020;
+            font-family: "Kaushan Script", cursive;
+            font-weight: 900;
+        }
+        .disclaimer a:hover
+        {
+            text-decoration: overline;
+        }
