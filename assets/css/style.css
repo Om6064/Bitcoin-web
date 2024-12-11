@@ -39,6 +39,28 @@ header{
 .justify-betwwen{
     justify-content: space-between;
 }
+.bg-color-35{
+    background-color: #353b44;
+}
+.fw-900{
+    font-weight: 900;
+}
+.gap-20{
+    gap: 20px;
+}
+.btnsub{
+    width: 163px;
+    height: 48px;
+    background-color: #f4a641;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bg-1f{
+    background-color: #1f262f;
+}
+.p-15-20{
+    padding: 15px 20px;
+}
 .gap-70{
     gap: 70px;
 }
@@ -47,6 +69,10 @@ header{
 }
 .colorf4{
     color: #f4a641;
+}
+.b-l{
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
 }
 .btn{
     width: 102px;
@@ -179,11 +205,33 @@ header{
 .m-t-20{
     margin-top: 20px;
 }
+.p-ab{
+    position: absolute;
+    left: 15px;
+}
+.bg-29{
+    background-color: #293039;
+}
+.circle{
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 50%;
+}
+.m-t-60{
+    margin-top: 60px;
+}
 .btn-read{
     width: 133px;
     height: 53px;
     background-color: #f4a641;
     font-weight: 600;
+}
+.p-ab-1{
+    position: absolute;
+    right: 280px;
+}
+.m-t-10{
+    margin-top: 10px;
 }
 .card-dec{
     font-weight: 900;
@@ -236,6 +284,18 @@ section{
     100%{
         rotate: 360deg;
     }
+}
+input{
+    width: 81.5%;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: none;
+}
+select{
+    padding: 15px 20px;
+    outline: none;
+    background-color: transparent;
+    border: none;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
