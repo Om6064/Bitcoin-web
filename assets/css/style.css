@@ -90,6 +90,7 @@ header{
     width: 122px;
     height: 45px;
     background-color: #f4a641;
+    cursor: pointer;
 }
 .m-auto{
     margin: auto;
@@ -148,12 +149,18 @@ header{
     width: 147px;
     background-color: #f4a641;
     font-weight: 600;
+    cursor: pointer;
 }
 .btndownload{
-    width: 200px;
+    width: 100%;
     height: 50px;
     border: 2px solid #f4a641;
     border-radius: 100px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.btndownload:hover{
+    background-color: white;
 }
 .bg-img{
     background-image: url('https://demo.awaikenthemes.com/html-preview/quivox/html/images/download-app-item-bg.svg');
@@ -225,7 +232,111 @@ header{
     height: 53px;
     background-color: #f4a641;
     font-weight: 600;
+    cursor: pointer;
 }
+.line-height{
+    line-height: 1.6em;
+}
+.m-l-5{
+    margin-left: 5px;
+}
+.p-20-0{
+    padding: 20px 0;
+}
+.icon-cir{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+.menu:hover{
+    color: #f4a641;
+}
+.menu{
+    cursor: pointer;
+    transition: .3s linear all;
+}
+.menu-1{
+    cursor: pointer;
+}
+.btn{
+    width: 102px;
+    height: 53px;
+    background-color: #f4a641;
+    font-weight: 600;
+}
+  
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  .po-re{
+    position: relative;
+  }
+  .read-more-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1e222899;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    transition: all 0.3s linear;
+    overflow: hidden;
+}
+
+.cs-image{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cs-image:hover .read-more-wrapper {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+.cs-image img{
+    transition: all 0.1s linear;
+}
+
+.cs-image:hover img{
+    transform: scale(1.08);
+}
+  .animate{
+    background-color: #f4a641;
+    position: relative;
+    overflow: hidden;
+  }
+  .pointer{
+    cursor: pointer;
+    transition: .2s all linear;
+  } 
+  .hover-img:hover{
+    transform: scale(1.03);
+  }
+  .animate::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: skewX(-45deg);
+    transition: all 0.5s ease;
+  }
+  
+  .animate:hover::before {
+    left: 100%;
+  }
+  
 .p-ab-1{
     position: absolute;
     right: 280px;
@@ -270,6 +381,22 @@ section{
     background-position: center center;
     background-size: 200%;
 }
+.d-none{
+    display: none;
+}
+.none{
+    display: none;
+}
+.full{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    top: 20px;
+    z-index: 999999;
+    margin-top: 72px;
+    padding-left: 50px;
+}
 .sliderimg{
     height: 60px !important;
     width: 60px !important;
@@ -286,7 +413,7 @@ section{
     }
 }
 input{
-    width: 81.5%;
+    width: 80%;
     padding: 15px 20px;
     background-color: transparent;
     border: none;
