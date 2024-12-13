@@ -247,6 +247,10 @@ header{
     height: 36px;
     width: 36px;
     border-radius: 50%;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    color: #f4a641;
 }
 .menu:hover{
     color: #f4a641;
